@@ -1,0 +1,15 @@
+BT18CSE021
+Ujjwal Sharma
+usharma@students.vnit.ac.in
+
+All the code is inside this Folder
+I have used Node.js as the programming language and i am using HTTP as
+the mode of Communication
+On your Computer first run npm install to install necessary packages
+mentioned in package.json
+
+then in seperate terminal windows run
+    node process1.js
+    node process2.js
+    node process3.js
+

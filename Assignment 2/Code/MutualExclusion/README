@@ -1,0 +1,20 @@
+BT18CSE021
+Ujjwal Sharma
+usharma@students.vnit.ac.in
+
+This is Question 1
+    Program to implement Lamport’s Distributed Mutual Exclusion Algorithm
+
+All the code is inside Node Folder
+I have user Node.js as the programming language and i am using HTTP as
+the mode of Communication
+On your Computer first run 
+    npm install
+to install necessary packages
+mentioned in package.json
+
+then in seperate terminal windows run
+    node process1.js
+    node process2.js
+    node process3.js
+

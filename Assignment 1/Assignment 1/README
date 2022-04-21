@@ -1,0 +1,14 @@
+This is Assignment 1 Of Introduction To Distributed System
+
+Question 1 - chatRPC folder . This contains all the code and images of the output related to question 1
+
+Question 2 - factorialRPC folder . This contains all the code and images of the output related to question 2
+
+Question 3 - dateTimeRPC folder . This contains all the code and images of the output related to question 3
+
+
+Commands :
+	rpcgen -a -C ****.x or rpcgen -aC ****.x
+	make Makefile.****
+	./****_server (use sudo if permissions are not configured)
+	./****_client localhost [parameters space seperated] (use sudo if permissions are not configured)

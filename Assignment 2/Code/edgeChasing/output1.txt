@@ -1,0 +1,52 @@
+Enter Total No. Of Sites : 3
+Enter Total No. Of Processes For site 1 : 3
+Enter Total No. Of Processes For site 2 : 4
+Enter Total No. Of Processes For site 3 : 3
+Site ID :  1
+	Total Processes -  3
+		 p-1-1
+		 p-1-2
+		 p-1-3
+Site ID :  2
+	Total Processes -  4
+		 p-2-1
+		 p-2-2
+		 p-2-3
+		 p-2-4
+Site ID :  3
+	Total Processes -  3
+		 p-3-1
+		 p-3-2
+		 p-3-3
+Enter the site ID and process ID for which deadlock detection shold be initiated : 
+Site : 1
+Process Id (as specified above) : p-1-1
+For detecting deadlock, Enter the no of requesting edges between Sites : 4
+Enter the processes of two different sites connected with requesting edge : 
+Process 1 (eg. p-1-1): p-1-3
+Process 2 (eg. p-2-1): p-2-1
+For this edge Probe message is: ( p-1-1 , p-1-3 , p-2-1 )
+Enter the processes of two different sites connected with requesting edge : 
+Process 1 (eg. p-1-1): p-2-3
+Process 2 (eg. p-2-1): p-3-1
+For this edge Probe message is: ( p-1-1 , p-2-3 , p-3-1 )
+Enter the processes of two different sites connected with requesting edge : 
+Process 1 (eg. p-1-1): p-2-4
+Process 2 (eg. p-2-1): p-3-2
+For this edge Probe message is: ( p-1-1 , p-2-4 , p-3-2 )
+Enter the processes of two different sites connected with requesting edge : 
+Process 1 (eg. p-1-1): p-3-3
+Process 2 (eg. p-2-1): p-1-1
+For this edge Probe message is: ( p-1-1 , p-3-3 , p-1-1 )
+Probes - 
+	 p-1-3 ( 1 )  -->  p-2-1 ( 2 )
+	 p-2-3 ( 2 )  -->  p-3-1 ( 3 )
+	 p-2-4 ( 2 )  -->  p-3-2 ( 3 )
+	 p-3-3 ( 3 )  -->  p-1-1 ( 1 )
+
+ ********** Deadlock Detected ********** 
+
+Path : 
+	Site1 --> Site2 --> Site3 --> Site1
+
+
